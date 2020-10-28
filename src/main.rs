@@ -11,8 +11,9 @@ fn main() {
     let res = func_test(5, &times2);
     let times3 = times(3);
     let v9 = times3(3);
+    let res2 = func_test(4, &times3);
 
-    println!("Hello, world! {} {}", res, v9);
+    println!("Hello, world! {} {} {}", res, v9, res2);
 
     let size = terminal_size();
 
